@@ -1,0 +1,34 @@
+/* CSS - Cascading StyleSheet 
+    BOS >> conteudo da caixa
+    Espaçamentos, Bordas, Preencimentos, Posicionamentos */
+
+body {
+    background: #e5e5e5;
+    color: #25282B;
+
+    text-align: center;
+}
+
+button {
+    color: #ff5E84;
+    border: none;
+
+    font-weight: bold;
+    background: none;            
+}
+
+button.fat {
+    color: white;
+    background: #ff5E84;
+}
+
+#footer a {
+    color: #ff5E84;
+
+    text-decoration: none;            
+}
+
+.hide {
+    display: none;
+}
+

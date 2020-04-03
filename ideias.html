@@ -7,16 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">  
 </head>
-<body>
+<body id="page-ideas">
 
     <div id="container">
 
         <header>
-            <img src="logo.png" alt="Imagem da Logomarca">
+            <a href="index.html">
+                <img src="logo.png" alt="Imagem da Logomarca">
+            </a>
             <nav>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Ideias</a></li>
-                <li><a href="#">Nova Ideia</a></li>
+                <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
             </nav>
         </header>
     
@@ -66,11 +67,24 @@
                         <a href="#">Ir para a Ideia</a>
                     </div>
                 </div>
+
+                <div class="idea">
+                    <img src="https://image.flaticon.com/icons/svg/2729/2729032.svg" alt="Imagem de Karaokê" >
+    
+                    <div class="content">
+                        <h3>Karaokê</h3>
+                        <p>Diversão em Família</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro a id quod molestiae commodi quia earum tempore. Consequatur ad tempore vero ab minima unde dolores doloribus nulla incidunt sed?
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
     
             </section>
         </main>
     
-        <footer id="footer">Com 💻 <a href="https://rocketseat.com.br">Rocketseat</a></footer>
+        <footer id="footer">Com 💻 <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a></footer>
     </div>
 
     <!-- MODAL -->
@@ -111,5 +125,7 @@
             </form>
         </div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

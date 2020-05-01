@@ -1,7 +1,7 @@
 # Workshop-Dev :computer:
 
 ## Colocando em prática meu estudo de GIT, HTML, CSS e JS 
-
+✔ ☑
 A idéia é familiarizar-me com HTML, CSS, JS e GIT. Estarei acompanhando as aulas e editando o código.
 Objetivo: Criar um site do zero com base no que for aprendido com este Workshop. 
 
